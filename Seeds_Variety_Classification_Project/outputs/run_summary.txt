@@ -1,0 +1,30 @@
+WHEAT SEED VARIETY CLASSIFICATION - RUN SUMMARY
+==================================================
+Rows: 210
+Features: 7
+Train samples: 157
+Test samples: 53
+
+              model  accuracy  training_and_prediction_seconds
+      Decision Tree  0.943396                         0.024045
+Logistic Regression  0.886792                         0.047054
+
+Parallel evaluation wall time: 11.6204 seconds
+
+Decision Tree feature importance:
+kernel_groove_length     0.526533
+area                     0.390623
+asymmetry_coefficient    0.064166
+perimeter                0.018678
+kernel_width             0.000000
+kernel_length            0.000000
+compactness              0.000000
+
+Logistic Regression permutation importance:
+kernel_groove_length     0.223585
+asymmetry_coefficient    0.039623
+kernel_length            0.033962
+perimeter                0.022642
+area                     0.008491
+kernel_width            -0.000943
+compactness             -0.029245

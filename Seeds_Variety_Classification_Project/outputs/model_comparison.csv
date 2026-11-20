@@ -1,0 +1,3 @@
+model,accuracy,training_and_prediction_seconds
+Decision Tree,0.9433962264150944,0.024045299971476197
+Logistic Regression,0.8867924528301887,0.04705430008471012
